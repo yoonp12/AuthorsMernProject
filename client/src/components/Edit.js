@@ -18,7 +18,7 @@ const Edit = ({id, setErrors, errors, setAuthor, author, changeHandler}) => {
                     errorObj[key] = errorResponse[key]
                 }
                 setErrors(errorObj);
-               
+                
             })
     }
 
